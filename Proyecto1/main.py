@@ -9,7 +9,6 @@ def main(turnos):
     intentos = 1
     flag = False
     num = randint(10, 101)
-    print(num)
     while (flag == False):
         print("Intento numero:" + str(intentos))
         numUsuario = int(input("Digite un numero:"))
