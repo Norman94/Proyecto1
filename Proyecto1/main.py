@@ -6,7 +6,7 @@ from random import randint
 
 #Metodo recursivo
 def main(turnos):
-    print ("TURNOS POR PARTIDA: "+ str(turnos))
+    print ("Cantidad de turnos jugados: "+ str(turnos))
     intentos = 1
     #Bandera para decir cuando gana o pierde
     flag = False
