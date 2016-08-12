@@ -1,17 +1,22 @@
-
+#variable para total de turnos
 MAX = 5
 
 from random import randint
 
 
+#Metodo recursivo
 def main(turnos):
     print ("TURNOS POR PARTIDA: "+ str(turnos))
     intentos = 1
+    #Bandera para decir cuando gana o pierde
     flag = False
+    #variable con el numero para ganar
     num = randint(10, 101)
+
     while (flag == False):
         print("Intento numero:" + str(intentos))
         numUsuario = int(input("Digite un numero:"))
+    #validamos el numero
         if (num == numUsuario):
             if (intentos == 1):
                 print("FELICIDADES, HAS LOGRADO ADIVINAR A LA PRIMERA")
